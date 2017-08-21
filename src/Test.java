@@ -1,5 +1,8 @@
-public class Test {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+import java.applet.*;
+import java.awt.*;
+
+public class Test extends Applet {
+    public void paint (Graphics g) {
+        g.drawString ("Hello World", 25, 50);
     }
 }
